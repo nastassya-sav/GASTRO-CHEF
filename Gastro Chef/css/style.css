@@ -315,11 +315,11 @@ a {
 
 .circle1 {
   position: absolute;
-  width: 933px;
-  height: 1293.88px;
+  width: 929px;
+  height: 1393.88px;
   left: 50.52vw;
-  padding-left: 35px;
-  top: -347.47px;
+  padding: 35px;
+  top: -247.47px;
   z-index: -1;
   overflow: hidden;
   visibility: none; }
@@ -336,6 +336,187 @@ a {
   border-radius: 50%;
   z-index: -1;
   overflow: hidden; }
+
+.circle_white {
+  position: absolute;
+  width: 624.53px;
+  height: 624.53px;
+  left: 9.6vw;
+  top: 350.53px;
+  background: #F5FAFF;
+  border: 10px solid #F5FAFF;
+  -webkit-box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.3);
+          box-shadow: 0px 0px 30px rgba(86, 86, 86, 0.3);
+  -webkit-transform: rotate(-19.06deg);
+          transform: rotate(-19.06deg);
+  border-radius: 50%;
+  overflow: hidden; }
+
+.image_food {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  margin: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: url("../img/food.png");
+  background-size: contain;
+  -webkit-transform: rotate(39.58deg);
+          transform: rotate(39.58deg);
+  border-radius: 50%; }
+
+.medium_block {
+  position: absolute;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-template-columns: 1fr 143.56px 1fr 143.56px 1fr 143.56px 1fr 143.56px 1fr 143.56px 1fr 143.56px 1fr;
+  grid-template-rows: 117.46px;
+  grid-template-areas: '. first . second . third . fourth . fivth . sixth .';
+  position: absolute;
+  padding-top: 42.88px;
+  padding-bottom: 59.66px;
+  width: 1286.44px;
+  height: 220px;
+  left: 16.46vw;
+  top: 1000px;
+  background: rgba(245, 250, 255, 0.8);
+  border-radius: 30px; }
+
+.first_block {
+  grid-area: first; }
+  .first_block svg {
+    position: absolute;
+    width: 50.54px;
+    height: 63.62px;
+    left: 106.44px;
+    top: 42.88px; }
+  .first_block .first_text {
+    position: absolute;
+    width: 143.56px;
+    height: 33.56px;
+    left: 60.44px;
+    top: 126.78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130.22%;
+    /* or 16px */
+    text-align: center;
+    color: #000000; }
+
+.second_block {
+  grid-area: second; }
+  .second_block svg {
+    position: absolute;
+    width: 66.38px;
+    height: 66.39px;
+    left: 284.44px;
+    top: 39.15px; }
+  .second_block .second_text {
+    position: absolute;
+    width: 175.25px;
+    height: 33.56px;
+    left: 231.44px;
+    top: 126.78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130.22%;
+    /* or 16px */
+    text-align: center;
+    color: #000000; }
+
+.third_block {
+  grid-area: third; }
+  .third_block svg {
+    position: absolute;
+    width: 68.85px;
+    height: 67.5px;
+    left: 479.44px;
+    top: 39.15px; }
+  .third_block .third_text {
+    position: absolute;
+    width: 158.47px;
+    height: 33.56px;
+    left: 434.44px;
+    top: 126.78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130.22%;
+    text-align: center;
+    color: #000000; }
+
+.fourth_block {
+  grid-area: fourth; }
+  .fourth_block svg {
+    position: absolute;
+    width: 61.63px;
+    height: 61.62px;
+    left: 693.44px;
+    top: 51px; }
+  .fourth_block .fourth_text {
+    position: absolute;
+    width: 206.95px;
+    height: 33.56px;
+    left: 621.44px;
+    top: 126.78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130.22%;
+    text-align: center;
+    color: #000000; }
+
+.fivth_block {
+  grid-area: fivth; }
+  .fivth_block svg {
+    position: absolute;
+    width: 99.89px;
+    height: 68.55px;
+    left: 885.44px;
+    top: 37.29px; }
+  .fivth_block .fivth_text {
+    position: absolute;
+    width: 158.47px;
+    height: 50.34px;
+    left: 856.44px;
+    top: 126.78px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130.22%;
+    text-align: center;
+    color: #000000; }
+
+.sixth_block {
+  grid-area: sixth; }
+  .sixth_block svg {
+    position: absolute;
+    width: 68.17px;
+    height: 68.17px;
+    left: 1100.44px;
+    top: 37px; }
+  .sixth_block .sixth_text {
+    position: absolute;
+    width: 184.58px;
+    height: 50.34px;
+    left: 1042.44px;
+    top: 126.49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130.22%;
+    text-align: center;
+    color: #000000; }
 
 .left_menu {
   position: absolute;
