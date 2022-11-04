@@ -111,7 +111,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   height: 2.71vw;
-  padding-left: 13.96vw;
+  padding-left: 15.5vw;
   padding-right: 0.83vw;
 }
 
@@ -152,6 +152,13 @@ a {
   font-size: 1.04vw;
   line-height: 1.25vw;
   color: $green;
+  transition: 0.3s;
+}
+
+.header-right:hover{
+  .phone{
+    color: $black;
+  }
 }
 
 .language {
@@ -312,17 +319,18 @@ a {
   background: $green;
   box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
   border-radius: 9.9vw;
+  transition: 0.2s;
 }
 
-.button_order:hover {
-  cursor: pointer;
-}
+
+
 
 .button_order_text {
+  position:absolute;
   width: 7.45vw;
   height: 1.82vw;
-  left: 22.81vw;
-  top: 32.97vw;
+  left: 3.54vw;
+  top: 0.73vw;
 
   font-family: 'Comfortaa';
   font-style: normal;
@@ -335,7 +343,18 @@ a {
   letter-spacing: 0.025em;
 
   color: $whitebackground;
+  transition: 0.2s;
+}
 
+.button_order:hover {
+  cursor: pointer;
+  left: 18.57vw;
+  width: 15.58vw;
+  height: 3.23vw;
+  .button_order_text {
+    left: 4.24vw;
+    
+  }
 }
 
 .main_text_caption_right {
@@ -1173,6 +1192,7 @@ a {
     }
   }
 
+  
   //first
 
   .program_header_11 {
@@ -1524,6 +1544,7 @@ a {
 .program_header_1:hover {
   background: $green;
   font-weight: 700;
+  cursor: pointer;
 
   .program_header_1_text {
     color: $whitebackground;
@@ -1533,12 +1554,54 @@ a {
 .program_header_2:hover {
   background: $green;
   font-weight: 700;
+  cursor: pointer;
 
   .program_header_2_text {
     color: $whitebackground;
   }
 }
-
+.program_header_11:hover{
+  cursor: pointer;
+  .program_header_11_text,.program_header_111_text{
+    color:$green;
+  }
+}
+.program_header_22:hover{
+  cursor: pointer;
+  .program_header_22_text,.program_header_222_text{
+    color:$green;
+  }
+}
+.program_header_33:hover{
+  cursor: pointer;
+  .program_header_33_text,.program_header_333_text{
+    color:$green;
+  }
+}
+.program_header_44:hover{
+  cursor: pointer;
+  .program_header_44_text,.program_header_444_text{
+    color:$green;
+  }
+}
+.program_header_55:hover{
+  cursor: pointer;
+  .program_header_55_text,.program_header_555_text{
+    color:$green;
+  }
+}
+.program_header_66:hover{
+  cursor: pointer;
+  .program_header_66_text,.program_header_666_text{
+    color:$green;
+  }
+}
+.program_header_77:hover{
+  cursor: pointer;
+  .program_header_77_text,.program_header_777_text{
+    color:$green;
+  }
+}
 //.program_header_11:hover{
 //  .program_header_11_text{
 //  font-size: $text-size;
@@ -1886,16 +1949,18 @@ a {
   }
 }
 
-.button {
+.button_ord {
   position: absolute;
   width: 14.58vw;
   height: 3.13vw;
   left: 2.6vw;
   bottom: 0px;
+  border: none;
 
   background: $green;
   box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
   border-radius: 9.9vw;
+  transition: 0.2s;
 
   .button_ord_text {
     position: absolute;
@@ -1915,45 +1980,22 @@ a {
     letter-spacing: 0.025em;
 
     color: $whitebackground;
+    transition: 0.2s;
   }
 }
 
-//.button_ord{
-//   border:none;
-//   position: absolute;
-//   width: 14.58vw;
-//   height: 3.13vw;
-//   left: 19.27vw;
-//   top: 32.24vw;
+.button_ord:hover {
+  cursor: pointer;
+  left: 2.1vw;
+  width: 15.58vw;
+  height: 3.23vw;
+  .button_ord_text {
+    left: 4.04vw;
+    top: 0.83vw;
+  }
+}
 
-//   background:$green;
-//   box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
-//   border-radius: 9.9vw;
-// }
 
-// .button_ord:hover{
-//   cursor: pointer;
-// }
-
-// .button_ord_text{
-//   width: 7.45vw;
-//   height: 1.82vw;
-//   left: 22.81vw;
-//   top: 32.97vw;
-
-//   font-family: 'Comfortaa';
-//   font-style: normal;
-//   font-weight: 700;
-//   font-size: 1.35vw;
-//   line-height: 133.8%;
-//   /* identical to box height, or 1.82vw */
-
-//   text-align: center;
-//   letter-spacing: 0.025em;
-
-//   color: $whitebackground;
-
-// }
 
 .header-center-list ul li:hover {
   color: $green;
