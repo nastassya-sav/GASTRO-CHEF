@@ -324,9 +324,6 @@ a {
   transition: 0.2s;
 }
 
-
-
-
 .button_order_text {
   position:absolute;
   width: 7.45vw;
@@ -2681,8 +2678,6 @@ a {
   font-weight: 700;
   font-size: $programs-size;
   line-height: 133.8%;
-  /* identical to box height, or 24px */
-
   letter-spacing: 0.025em;
 
   color: #64D370;
@@ -2825,15 +2820,161 @@ a {
 
   background: $green;
 }
-//begin from here
-input {
+
+.red_circle{
   position: absolute;
-  opacity: 0;
-  cursor: pointer;
+  width: 0.73vw;
+  height: 0.73vw;
+  left: 20.06vw;
+  top: 13vw;
+  border-radius: 50%;
+
+  background: #F87676;
 }
 
-input:checked ~ .checkmark {
-  background-color: red;
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+input[type="radio"] {
+  appearance: none;
+  background-color: #DEE6EE;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: none;
+  border-radius: 50%;
+}
+
+input[type="radio"] {
+  /* ...existing styles */
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  background-color: $green;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.button_ord_phone {
+  border: none;
+  position: absolute;
+  width: 15.52vw;
+  height: 3.125vw;
+  left: 2.93vw;
+  top: 20.9vw;
+
+  border: 0.16vw solid $green;
+  filter: drop-shadow(0px 0px 2.08vw rgba(86, 86, 86, 0.3));
+  border-radius: 9.9vw;
+  transition: 0.3s;
+}
+
+.button_ord_phone_text {
+  position:absolute;
+  width: 12.45vw;
+  height: 1.51vw;
+  left: 1.56vw;
+  top: 0.83vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $text-size;
+  line-height: 133.8%;
+
+  text-align: center;
+  letter-spacing: 0.025em;
+
+  color: #64D370;
+  transition: 0.3s;
+}
+
+.button_ord_phone:hover {
+  cursor: pointer;
+  transform: scale(0.7);
+  .button_ord_phone_text {
+    transform: scale(0.7); 
+  }
+}
+
+.button_ord_online {
+  border: none;
+  position: absolute;
+  width: 16.88vw;
+  height: 3.125vw;
+  left: 2.23vw;
+  top: 26.63vw;
+
+  background: $green;
+  box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+  border-radius: 9.9vw;
+  transition: 0.3s;
+}
+
+.button_ord_online_text {
+  position:absolute;
+  width: 9.74vw;
+  height: 1.66vw;
+  left: 3.54vw;
+  top: 0.73vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $big-form-size;
+  line-height: 133.8%;
+  text-align: center;
+  letter-spacing: 0.025em;
+
+  color: $whitebackground;
+  transition: 0.3s;
+}
+
+.button_ord_online:hover {
+  cursor: pointer;
+  transform: scale(0.7);
+  .button_ord_online_text {
+    transform: scale(0.7); 
+  }
+}
+
+.or{
+  position: absolute;
+  width: 2.92vw;
+  height: 1.51vw;
+  left: 8.8vw;
+  top: 24.6vw;
+  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $small-form-size;
+  line-height: 133.8%;
+  /* or 29px */
+  
+  text-align: center;
+  letter-spacing: 0.025em;
+  
+  color: #020202;
 }
 
 .bottom_right{

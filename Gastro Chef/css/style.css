@@ -2210,7 +2210,6 @@ a {
   font-weight: 700;
   font-size: 0.94vw;
   line-height: 133.8%;
-  /* identical to box height, or 24px */
   letter-spacing: 0.025em;
   color: #64D370; }
 
@@ -2330,13 +2329,153 @@ a {
   border-radius: 50%;
   background: #64D370; }
 
-input {
+.red_circle {
   position: absolute;
-  opacity: 0;
-  cursor: pointer; }
+  width: 0.73vw;
+  height: 0.73vw;
+  left: 20.06vw;
+  top: 13vw;
+  border-radius: 50%;
+  background: #F87676; }
 
-input:checked ~ .checkmark {
-  background-color: red; }
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0; }
+
+input[type="radio"] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #DEE6EE;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: none;
+  border-radius: 50%; }
+
+input[type="radio"] {
+  /* ...existing styles */
+  display: grid;
+  place-content: center; }
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 120ms -webkit-transform ease-in-out;
+  transition: 120ms -webkit-transform ease-in-out;
+  transition: 120ms transform ease-in-out;
+  transition: 120ms transform ease-in-out, 120ms -webkit-transform ease-in-out;
+  background-color: #64D370; }
+
+input[type="radio"]:checked::before {
+  -webkit-transform: scale(1);
+          transform: scale(1); }
+
+.button_ord_phone {
+  border: none;
+  position: absolute;
+  width: 15.52vw;
+  height: 3.125vw;
+  left: 2.93vw;
+  top: 20.9vw;
+  border: 0.16vw solid #64D370;
+  -webkit-filter: drop-shadow(0px 0px 2.08vw rgba(86, 86, 86, 0.3));
+          filter: drop-shadow(0px 0px 2.08vw rgba(86, 86, 86, 0.3));
+  border-radius: 9.9vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.button_ord_phone_text {
+  position: absolute;
+  width: 12.45vw;
+  height: 1.51vw;
+  left: 1.56vw;
+  top: 0.83vw;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.04vw;
+  line-height: 133.8%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #64D370;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.button_ord_phone:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7); }
+  .button_ord_phone:hover .button_ord_phone_text {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+
+.button_ord_online {
+  border: none;
+  position: absolute;
+  width: 16.88vw;
+  height: 3.125vw;
+  left: 2.23vw;
+  top: 26.63vw;
+  background: #64D370;
+  -webkit-box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+          box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+  border-radius: 9.9vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.button_ord_online_text {
+  position: absolute;
+  width: 9.74vw;
+  height: 1.66vw;
+  left: 3.54vw;
+  top: 0.73vw;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25vw;
+  line-height: 133.8%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #F5FAFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.button_ord_online:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7); }
+  .button_ord_online:hover .button_ord_online_text {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7); }
+
+.or {
+  position: absolute;
+  width: 2.92vw;
+  height: 1.51vw;
+  left: 8.8vw;
+  top: 24.6vw;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.15vw;
+  line-height: 133.8%;
+  /* or 29px */
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #020202; }
 
 .bottom_right {
   position: absolute;
