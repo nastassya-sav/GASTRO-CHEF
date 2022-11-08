@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   font-size: $text-size;
+  overflow-x: hidden;
 }
 
 //HEADER
@@ -1984,6 +1986,865 @@ a {
   }
 }
 
+.program_right{
+  position: absolute;
+  left: 20.83vw;
+  top: 11.77vw;
+  width: 40.625vw;
+  height: auto;
+  .program_days{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40.625vw;
+    height: 2.86vw;
+    background: #F5FAFF;
+    box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+    border-radius: 30px;
+    ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute;
+      padding-left: 2.6vw;
+      padding-right: 2.66vw;
+      width: 40.625vw;
+      top: 0.83vw;
+      .mon{
+        width: 2.24vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $green;
+      }
+      .tue{
+        width: 1.77vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $black;
+      }
+      .wed{
+        width: 1.875vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $black;
+      }
+      .thur{
+        width: 1.93vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $black;
+      }
+      .fri{
+        width: 1.98vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $black;
+      }
+      .sat{
+        width: 2.03vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $black;
+      }
+      .sun{
+        width: 1.98vw;
+        height: 1.46vw;
+
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: $big-tab-size;
+        line-height: 1.46vw;
+        
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $black;
+      }
+    }
+  }
+}
+
+.program_menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2.8125vw 1.406vw 3.85vw 1.406vw 3.85vw 1.406vw 3.85vw 1.406vw 3.85vw 1.406vw;
+  top: 3.91vw;
+  left: 0px;
+  width: 40.625vw;
+  height: 27.34vw;
+  position: absolute;
+  background: #F5FAFF;
+  box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+  border-radius: 30px;
+  .pm1{
+    position: absolute;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    width: 4.32vw;
+    height: 1.25vw;
+    left: 2.6vw;
+    top: 1.56vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $text-size;
+    line-height: 1.25vw;
+
+    color: #000000;
+
+  }
+  .pm2{
+    position: absolute;
+    grid-column: 1;
+    grid-row: 2;
+    left: 2.6vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm3{
+    grid-column: 2;
+    grid-row: 1;
+    position: absolute;
+    left: -2vw;
+    top: 1.56vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+
+  }
+  .pm4{
+    grid-column: 3;
+    grid-row: 1;
+    position: absolute;
+    right: 2.92vw;
+    top: 1.56vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm5{
+    grid-column: 1;
+    grid-row: 3;
+    align-self: end;
+    position: absolute;
+    top: 2.6vw;
+    left: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $text-size;
+    line-height: 1.25vw;
+
+    color: #000000;
+  }
+  .pm6{
+    grid-column: 1;
+    grid-row: 4;
+    position: absolute;
+    left: 2.6vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm7{
+    grid-column: 2;
+    grid-row: 3;
+    position: absolute;
+    left: -2vw;;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm8{
+    grid-column: 2;
+    grid-row: 4;
+    position: absolute;
+    left: -2vw;;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm9{
+    grid-column: 3;
+    grid-row: 3;
+    position: absolute;
+    right: 2.92vw;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm10{
+    grid-column: 3;
+    grid-row: 4;
+    position: absolute;
+    right: 2.92vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm11{
+    grid-column: 1;
+    grid-row: 5;
+    align-self: end;
+    position: absolute;
+    top: 2.6vw;
+    left: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $text-size;
+    line-height: 1.25vw;
+
+    color: #000000;
+  }
+  .pm12{
+    grid-column: 1;
+    grid-row: 6;
+    position: absolute;
+    left: 2.6vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm13{
+    grid-column: 2;
+    grid-row: 5;
+    position: absolute;
+    left: -2vw;;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm14{
+    grid-column: 2;
+    grid-row: 6;
+    position: absolute;
+    left: -2vw;;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm15{
+    grid-column: 3;
+    grid-row: 5;
+    position: absolute;
+    right: 2.92vw;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm16{
+    grid-column: 3;
+    grid-row: 6;
+    position: absolute;
+    right: 2.92vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm17{
+    grid-column: 1;
+    grid-row: 7;
+    align-self: end;
+    position: absolute;
+    top: 2.6vw;
+    left: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $text-size;
+    line-height: 1.25vw;
+
+    color: #000000;
+  }
+  .pm18{
+    grid-column: 1;
+    grid-row: 8;
+    position: absolute;
+    left: 2.6vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm19{
+    grid-column: 2;
+    grid-row: 7;
+    position: absolute;
+    left: -2vw;;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm20{
+    grid-column: 3;
+    grid-row: 7;
+    position: absolute;
+    right: 2.92vw;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm21{
+    grid-column: 1;
+    grid-row: 9;
+    align-self: end;
+    position: absolute;
+    top: 2.6vw;
+    left: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $text-size;
+    line-height: 1.25vw;
+
+    color: #000000;
+  }
+  .pm22{
+    grid-column: 1;
+    grid-row: 10;
+    position: absolute;
+    left: 2.6vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm23{
+    grid-column: 2;
+    grid-row: 9;
+    position: absolute;
+    left: -2vw;;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm24{
+    grid-column: 2;
+    grid-row: 10;
+    position: absolute;
+    left: -2vw;;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+    color: #000000;
+  }
+  .pm25{
+    grid-column: 3;
+    grid-row: 9;
+    position: absolute;
+    right: 2.92vw;
+    top: 2.6vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+  .pm26{
+    grid-column: 3;
+    grid-row: 10;
+    position: absolute;
+    right: 2.92vw;
+    top: 0.26vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: $programs-size;
+    line-height: 1.15vw;
+
+    color: #000000;
+  }
+}
+
+.photo_block{
+  position: absolute;
+  width: 98.9vw;
+  height: 37.53vw;
+  top: 125.07vw;
+  overflow: hidden;
+}
+
+.photo_block_2{
+  position: absolute;
+  width: 123.96vw;
+  height: 34.53vw;
+  top: 0px;
+}
+
+.photo_first img{
+  position: absolute;
+  left: -5.8vw;
+  top: 2.5vw;
+  width: 19.79vw;
+  height: 29.69vw;
+  object-fit: contain;
+  
+}
+
+.photo_second img{
+  position: absolute;
+  left: 8.85vw;
+  top: 1.6vw;
+  width: 19.79vw;
+  height: 31.69vw;
+  object-fit: contain;
+
+}
+
+.photo_third img{
+  position: absolute;
+  left: 29.69vw;
+  top: 1.6vw;
+  width: 19.79vw;
+  height: 31.69vw;
+  object-fit: contain;
+}
+
+.photo_fourth img{
+  position: absolute;
+  left: 50.52vw;
+  top: 1.6vw;
+  width: 19.79vw;
+  height: 31.69vw;
+  object-fit: contain;
+}
+
+.photo_fivth img{
+  position: absolute;
+  left: 71.35vw;
+  top: 1.6vw;
+  width: 19.79vw;
+  height: 31.69vw;
+  object-fit: contain;
+}
+
+.photo_sixth img{
+  position: absolute;
+  left: 86.2vw;
+  top: 2.5vw;
+  width: 19.79vw;
+  height: 29.69vw;
+  object-fit: contain;
+  transform: scale(-1, 1);
+}
+
+.photo_text{
+  position: absolute;
+  width: 9.9vw;
+  height: 1.72vw;
+  left: 45.05vw;
+  top: 123.23vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $small-title-size;
+  line-height: 1.72vw;
+  text-align: center;
+
+  color: $black;
+}
+
+.bottom_block{
+  position: absolute;
+  display:flex;
+  flex-direction: row;
+  width: 61.46vw;
+  height: 31.25vw;
+  left: 19.27vw;
+  top: 165.57vw;
+  border: solid red;
+}
+
+.bottom_left{
+  position: absolute;
+  left: 0px;
+  top: 1.46vw;
+  width: 21.77vw;
+  height: 29.79vw;
+  border: solid blue;
+}
+
+.bl_text{
+  position: absolute;
+  width: 14.64vw;
+  height: 1.72vw;
+  left: 3.44vw;
+  top: 0px;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $small-title-size;
+  line-height: 1.72vw;
+  text-align: center;
+
+  color: $black;
+}
+
+.bl_text_small{
+  position: absolute;
+  width: 19.9vw;
+  height: 2.19vw;
+  left: 0.73vw;
+  top: 1.82vw;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $medium-description-size;
+  line-height: 133.8%;
+
+  text-align: center;
+  letter-spacing: 0.025em;
+  color: #020202;
+}
+
+.field_name_label{
+  position: absolute;
+  width: 2.19vw;
+  height: 1.25vw;
+  left: 0.73vw;
+  top: 5.57vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $programs-size;
+  line-height: 133.8%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.025em;
+
+  color: #64D370;
+}
+
+.field_name{
+  position: absolute;
+  width: 21.77vw;
+  height: 2.08vw;
+  left: 0px;
+  top: 7.08vw;
+  border: none;
+
+  background: #DEE6EE;
+  border-radius: 9.9vw;
+}
+
+.ivan{
+  position:absolute;
+  width: 2.34vw;
+  height: 1.09vw;
+  left: 1.04vw;
+  top: 7.55vw;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $medium-description-size;
+  line-height: 133.8%;
+  letter-spacing: 0.025em;
+  color: $black;
+}
+
+.field_phone_label{
+  position: absolute;
+  width: 12.27vw;
+  height: 1.25vw;
+  left: 0.73vw;
+  top: 10.725vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $programs-size;
+  line-height: 133.8%;
+  letter-spacing: 0.025em;
+  color: #F87676;
+}
+
+.field_phone{
+  position: absolute;
+  width: 21.77vw;
+  height: 2.08vw;
+  left: 0px;
+  top: 12.24vw;
+  border: none;
+
+  background: #DEE6EE;
+  border-radius: 9.9vw;
+}
+
+.phone_num{
+  position: absolute;
+  width: 5.31vw;
+  height: 1.09vw;
+  left: 1.04vw;
+  top: 12.71vw;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $medium-description-size;
+  line-height: 133.8%;
+
+  letter-spacing: 0.025em;
+  color: $black;
+}
+
+.radio1{
+  position: absolute;
+  width: 1.35vw;
+  height: 1.35vw;
+  left: 0.53vw;
+  top: 15.79vw;
+}
+
+.input_text1{
+  position: absolute;
+  width: 16.46vw;
+  height: 1.09vw;
+  left: 2.93vw;
+  top: 16vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $medium-description-size;
+  line-height: 133.8%;
+
+  letter-spacing: 0.025em;
+  color: $black;
+}
+
+.radio2{
+  position: absolute;
+  width: 1.35vw;
+  height: 1.35vw;
+  left: 0.53vw;
+  top: 17.93vw;
+}
+
+.input_text2{
+  position: absolute;
+  width: 19.46vw;
+  height: 1.09vw;
+  left: 2.93vw;
+  top: 18.14vw;
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-size: $medium-description-size;
+  line-height: 133.8%;
+
+  letter-spacing: 0.025em;
+  color: $black;
+}
+
+.input_green{
+  color: $green;
+}
+
+.green_circle{
+  position: absolute;
+  width: 0.73vw;
+  height: 0.73vw;
+  left: 20.06vw;
+  top: 7.8vw;
+  border-radius: 50%;
+
+  background: $green;
+}
+//begin from here
+input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+input:checked ~ .checkmark {
+  background-color: red;
+}
+
+.bottom_right{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 35.42vw;
+  height: 31.25vw;
+  border: solid purple;
+}
+
 .button_ord:hover {
   cursor: pointer;
   left: 2.1vw;
@@ -1995,7 +2856,11 @@ a {
   }
 }
 
-
+.program_days ul li:hover {
+  a{
+  color: $green;
+  }
+}
 
 .header-center-list ul li:hover {
   color: $green;
