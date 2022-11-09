@@ -516,7 +516,7 @@ a {
   }
 }
 
-.viber {
+.twitter {
   position: absolute;
   width: 1.75vw;
   height: 1.75vw;
@@ -2624,9 +2624,10 @@ a {
 }
 
 .bottom_left{
+  flex: 50%;
   position: absolute;
-  left: 0px;
-  top: 1.46vw;
+  //left: 0px;
+  //top: 1.46vw;
   width: 21.77vw;
   height: 29.79vw;
   //border: solid blue;
@@ -2959,9 +2960,10 @@ input[type="radio"]:checked::before {
 }
 
 .bottom_right{
+  flex: 50%;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  //right: 0px;
+  //top: 0px;
   width: 35.42vw;
   height: 31.25vw;
  // border: solid purple;
@@ -3362,12 +3364,12 @@ input[type="radio"]:checked::before {
   position: absolute;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
   width: 11.46vw;
   height: 9.27vw;
   left: 24.06vw;
   top: 2.14vw;
-  border: solid red;
+  //border: solid red;
 
   .footer_left_first{
     width: 11.46vw;
@@ -3379,6 +3381,7 @@ input[type="radio"]:checked::before {
     line-height: 1.15vw;
 
     color: #020202;
+    transition: 0.2s;
   }
   .footer_left_second{
     width: 11.46vw;
@@ -3390,6 +3393,7 @@ input[type="radio"]:checked::before {
     line-height: 1.15vw;
 
     color: #020202;
+    transition: 0.2s;
   }
   .footer_left_third{
     width: 11.46vw;
@@ -3401,6 +3405,7 @@ input[type="radio"]:checked::before {
     line-height: 1.15vw;
 
     color: #020202;
+    transition: 0.2s;
   }
   .footer_left_fourth{
     width: 11.46vw;
@@ -3412,6 +3417,7 @@ input[type="radio"]:checked::before {
     line-height: 1.15vw;
 
     color: #020202;
+    transition: 0.2s;
   }
   .footer_left_fifth{
     width: 11.46vw;
@@ -3423,7 +3429,13 @@ input[type="radio"]:checked::before {
     line-height: 1.15vw;
 
     color: #020202;
+    transition: 0.2s;
   }
+}
+
+.footer_left > div:hover{
+  cursor: pointer;
+  color: $green;
 }
 
 .footer_center{
@@ -3432,7 +3444,31 @@ input[type="radio"]:checked::before {
   height: 9.17vw;
   left: 43.44vw;
   top: 1.2vw;
-  border: solid blue;
+  //border: solid blue;
+  .logo_footer {
+    position: absolute;
+    width: 21.98vw;
+    height: 9.1vw;
+  
+    top: 0vw;
+    background: url("../img/logo.png") no-repeat top left;
+    background-size: contain;
+  }
+  .footer_center_text{
+    position: absolute;
+    width: 20.36vw;
+    height: 1.04vw;
+    left: 0.5vw;
+    bottom: 0px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: $text-size;
+    line-height: 115.8%;
+    text-align: center;
+    color: #020202;
+  }
 }
 
 .footer_right{
@@ -3441,8 +3477,122 @@ input[type="radio"]:checked::before {
   height: 9.11vw;
   right: 24.11vw;
   top: 2.14vw;
-  border: solid purple;
+  //border: solid purple;
+  .footer_right_text1{
+    position: absolute;
+    width: 10.21vw;
+    height: 2.29vw;
+    right: 0px;
+    top: 0px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: $text-size;
+    line-height: 1.15vw;
+    text-align: right;
+
+    color: #020202;
+    transition: 0.3s;
+  }
+  .footer_right_faq{
+    position: absolute;
+    width: 2.24vw;
+    height: 1.15vw;
+    right: 0px;
+    top: 3.28vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: $text-size;
+    line-height: 1.15vw;
+    text-align: right;
+    color: #020202;
+    transition: 0.3s;
+  }
+  .telegram_footer {
+    position: absolute;
+    width: 1.75vw;
+    height: 1.75vw;
+    right: 2.5vw;
+    top: 5.2vw;
+    background: $whitebackground;
+    border-radius: 50%;
+    transition: 0.2s;
+  
+    svg {
+      position: absolute;
+      width: 1.75vw;
+      height: 1.75vw;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  
+  .twitter_footer {
+    position: absolute;
+    width: 1.75vw;
+    height: 1.75vw;
+    top: 5.2vw;
+    right: 0px;
+    background: $black;
+    border-radius: 50%;
+    transition: 0.2s;
+  
+    svg {
+      position: absolute;
+      width: 1.15vw;
+      height: 1.15vw;
+      bottom: 0.2vw;
+      left: 0.3vw;
+    }
+  }
+  .footer_right_phone {
+    position: absolute;
+    width: 11.46vw;
+    height: 1.25vw;
+    right: 0px;
+    top: 7.78vw;
+  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    color: $green;
+    transition: 0.3s;
+  }
+  
 }
+
+.footer_right_text1:hover{
+  cursor: pointer;
+  color: $green;
+}
+
+.footer_right_faq:hover{
+  cursor: pointer;
+  color: $green;
+}
+
+.footer_right_phone:hover{
+  color: $black;
+}
+
+.footer_right_svg > div:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+/*.contact{
+  border: solid red;
+}
+
+.contact:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}*/
 
 .que_first:hover{
   cursor: pointer;
@@ -3661,4 +3811,17 @@ input[type="radio"]:checked::before {
   }
 
   cursor:pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .bottom_block{
+    flex-direction: column;
+    height: 85.04vw;
+    width: 31.46vw;
+    left: 25vw;
+    top: 165.57vw;
+  }
+  .footer{
+    top: 244.06vw;
+  }
 }

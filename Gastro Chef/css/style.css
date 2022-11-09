@@ -447,7 +447,7 @@ a {
     left: 0px;
     top: 0px; }
 
-.viber {
+.twitter {
   position: absolute;
   width: 1.75vw;
   height: 1.75vw;
@@ -455,7 +455,7 @@ a {
   left: 2.12vw;
   background: #000000;
   border-radius: 50%; }
-  .viber svg {
+  .twitter svg {
     position: absolute;
     width: 1.15vw;
     height: 1.15vw;
@@ -2167,9 +2167,10 @@ a {
   top: 165.57vw; }
 
 .bottom_left {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
   position: absolute;
-  left: 0px;
-  top: 1.46vw;
   width: 21.77vw;
   height: 29.79vw; }
 
@@ -2491,9 +2492,10 @@ input[type="radio"]:checked::before {
   color: #020202; }
 
 .bottom_right {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
   position: absolute;
-  right: 0px;
-  top: 0px;
   width: 35.42vw;
   height: 31.25vw; }
 
@@ -2862,14 +2864,13 @@ input[type="radio"]:checked::before {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 11.46vw;
   height: 9.27vw;
   left: 24.06vw;
-  top: 2.14vw;
-  border: solid red; }
+  top: 2.14vw; }
   .footer_left .footer_left_first {
     width: 11.46vw;
     height: 1.15vw;
@@ -2878,7 +2879,9 @@ input[type="radio"]:checked::before {
     font-weight: 700;
     font-size: 1.04vw;
     line-height: 1.15vw;
-    color: #020202; }
+    color: #020202;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
   .footer_left .footer_left_second {
     width: 11.46vw;
     height: 1.15vw;
@@ -2887,7 +2890,9 @@ input[type="radio"]:checked::before {
     font-weight: 700;
     font-size: 1.04vw;
     line-height: 1.15vw;
-    color: #020202; }
+    color: #020202;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
   .footer_left .footer_left_third {
     width: 11.46vw;
     height: 1.15vw;
@@ -2896,7 +2901,9 @@ input[type="radio"]:checked::before {
     font-weight: 700;
     font-size: 1.04vw;
     line-height: 1.15vw;
-    color: #020202; }
+    color: #020202;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
   .footer_left .footer_left_fourth {
     width: 11.46vw;
     height: 1.15vw;
@@ -2905,7 +2912,9 @@ input[type="radio"]:checked::before {
     font-weight: 700;
     font-size: 1.04vw;
     line-height: 1.15vw;
-    color: #020202; }
+    color: #020202;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
   .footer_left .footer_left_fifth {
     width: 11.46vw;
     height: 1.15vw;
@@ -2914,24 +2923,148 @@ input[type="radio"]:checked::before {
     font-weight: 700;
     font-size: 1.04vw;
     line-height: 1.15vw;
-    color: #020202; }
+    color: #020202;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+
+.footer_left > div:hover {
+  cursor: pointer;
+  color: #64D370; }
 
 .footer_center {
   position: absolute;
   width: 20.36vw;
   height: 9.17vw;
   left: 43.44vw;
-  top: 1.2vw;
-  border: solid blue; }
+  top: 1.2vw; }
+  .footer_center .logo_footer {
+    position: absolute;
+    width: 21.98vw;
+    height: 9.1vw;
+    top: 0vw;
+    background: url("../img/logo.png") no-repeat top left;
+    background-size: contain; }
+  .footer_center .footer_center_text {
+    position: absolute;
+    width: 20.36vw;
+    height: 1.04vw;
+    left: 0.5vw;
+    bottom: 0px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 115.8%;
+    text-align: center;
+    color: #020202; }
 
 .footer_right {
   position: absolute;
   width: 11.82vw;
   height: 9.11vw;
   right: 24.11vw;
-  top: 2.14vw;
-  border: solid purple; }
+  top: 2.14vw; }
+  .footer_right .footer_right_text1 {
+    position: absolute;
+    width: 10.21vw;
+    height: 2.29vw;
+    right: 0px;
+    top: 0px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.15vw;
+    text-align: right;
+    color: #020202;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+  .footer_right .footer_right_faq {
+    position: absolute;
+    width: 2.24vw;
+    height: 1.15vw;
+    right: 0px;
+    top: 3.28vw;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.15vw;
+    text-align: right;
+    color: #020202;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+  .footer_right .telegram_footer {
+    position: absolute;
+    width: 1.75vw;
+    height: 1.75vw;
+    right: 2.5vw;
+    top: 5.2vw;
+    background: #F5FAFF;
+    border-radius: 50%;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+    .footer_right .telegram_footer svg {
+      position: absolute;
+      width: 1.75vw;
+      height: 1.75vw;
+      left: 0px;
+      top: 0px; }
+  .footer_right .twitter_footer {
+    position: absolute;
+    width: 1.75vw;
+    height: 1.75vw;
+    top: 5.2vw;
+    right: 0px;
+    background: #000000;
+    border-radius: 50%;
+    -webkit-transition: 0.2s;
+    transition: 0.2s; }
+    .footer_right .twitter_footer svg {
+      position: absolute;
+      width: 1.15vw;
+      height: 1.15vw;
+      bottom: 0.2vw;
+      left: 0.3vw; }
+  .footer_right .footer_right_phone {
+    position: absolute;
+    width: 11.46vw;
+    height: 1.25vw;
+    right: 0px;
+    top: 7.78vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    color: #64D370;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
 
+.footer_right_text1:hover {
+  cursor: pointer;
+  color: #64D370; }
+
+.footer_right_faq:hover {
+  cursor: pointer;
+  color: #64D370; }
+
+.footer_right_phone:hover {
+  color: #000000; }
+
+.footer_right_svg > div:hover {
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9); }
+
+/*.contact{
+  border: solid red;
+}
+
+.contact:hover{
+  cursor: pointer;
+  transform: scale(0.9);
+}*/
 .que_first:hover {
   cursor: pointer;
   -webkit-transform: scale(0.9);
@@ -3082,5 +3215,19 @@ input[type="radio"]:checked::before {
   .left_circle6:hover .left_circle6_text_2 {
     display: inline;
     color: #64D370; }
+
+@media screen and (max-width: 800px) {
+  .bottom_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 85.04vw;
+    width: 31.46vw;
+    left: 25vw;
+    top: 165.57vw; }
+
+  .footer {
+    top: 244.06vw; } }
 
 /*# sourceMappingURL=style.css.map */
