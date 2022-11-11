@@ -2620,17 +2620,17 @@ a {
   height: 31.25vw;
   left: 19.27vw;
   top: 165.57vw;
-  //border: solid red;
+  border: solid red;
 }
 
 .bottom_left{
   flex: 50%;
-  position: absolute;
+  //position: absolute;
   //left: 0px;
   //top: 1.46vw;
-  width: 21.77vw;
-  height: 29.79vw;
-  //border: solid blue;
+  //width: 21.77vw;
+  //height: 29.79vw;
+  border: solid blue;
 }
 
 
@@ -2961,16 +2961,16 @@ input[type="radio"]:checked::before {
 
 .bottom_right{
   flex: 50%;
-  position: absolute;
+  //position: absolute;
   //right: 0px;
   //top: 0px;
-  width: 35.42vw;
-  height: 31.25vw;
- // border: solid purple;
+  //width: 35.42vw;
+  //height: 31.25vw;
+  border: solid purple;
 }
 
 .que_title{
-  position: absolute;
+  position: relative;
   width: 20.52vw;
   height: 1.46vw;
   left: 7.42vw;
@@ -2986,11 +2986,11 @@ input[type="radio"]:checked::before {
 }
 
 .que_first{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
-  top: 3.28vw;
+  top: 1.82vw;
 
   background: $whitebackground;
   box-shadow: 0px 0px 1.04vw rgba(86, 86, 86, 0.2);
@@ -3026,11 +3026,11 @@ input[type="radio"]:checked::before {
 }
 
 .que_second{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
-  top: 6.405vw;
+  top: 3.125vw;
 
   background: $whitebackground;
   box-shadow: 0px 0px 1.04vw rgba(86, 86, 86, 0.2);
@@ -3066,7 +3066,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_third{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -3106,7 +3106,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_fourth{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -3146,7 +3146,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_fifth{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -3186,7 +3186,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_sixth{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -3226,7 +3226,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_seventh{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -3266,7 +3266,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_eighth{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -3306,7 +3306,7 @@ input[type="radio"]:checked::before {
 }
 
 .que_ninth{
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;

@@ -2164,15 +2164,14 @@ a {
   width: 61.46vw;
   height: 31.25vw;
   left: 19.27vw;
-  top: 165.57vw; }
+  top: 165.57vw;
+  border: solid red; }
 
 .bottom_left {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
-  position: absolute;
-  width: 21.77vw;
-  height: 29.79vw; }
+  border: solid blue; }
 
 .bl_text {
   position: absolute;
@@ -2495,12 +2494,10 @@ input[type="radio"]:checked::before {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
-  position: absolute;
-  width: 35.42vw;
-  height: 31.25vw; }
+  border: solid purple; }
 
 .que_title {
-  position: absolute;
+  position: relative;
   width: 20.52vw;
   height: 1.46vw;
   left: 7.42vw;
@@ -2514,11 +2511,11 @@ input[type="radio"]:checked::before {
   color: #020202; }
 
 .que_first {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
-  top: 3.28vw;
+  top: 1.82vw;
   background: #F5FAFF;
   -webkit-box-shadow: 0px 0px 1.04vw rgba(86, 86, 86, 0.2);
           box-shadow: 0px 0px 1.04vw rgba(86, 86, 86, 0.2);
@@ -2550,11 +2547,11 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_second {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
-  top: 6.405vw;
+  top: 3.125vw;
   background: #F5FAFF;
   -webkit-box-shadow: 0px 0px 1.04vw rgba(86, 86, 86, 0.2);
           box-shadow: 0px 0px 1.04vw rgba(86, 86, 86, 0.2);
@@ -2586,7 +2583,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_third {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -2622,7 +2619,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_fourth {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -2658,7 +2655,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_fifth {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -2694,7 +2691,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_sixth {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -2730,7 +2727,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_seventh {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -2766,7 +2763,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_eighth {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
@@ -2802,7 +2799,7 @@ input[type="radio"]:checked::before {
     color: #020202; }
 
 .que_ninth {
-  position: absolute;
+  position: relative;
   width: 35.42vw;
   height: 2.08vw;
   left: 0px;
