@@ -4925,6 +4925,29 @@ input[type="radio"]:checked::before {
           line-height: 3.75vw;
         }
       }
+
+      .left_body{
+        grid-column: 1/4;
+        grid-row: 2/6;
+        position: absolute;
+        top: 2.6vw;
+        left: 1.04vw;
+        width: 87.5vw;
+        height: 38.125vw;
+//start
+        .lb1{
+          grid-column: 1/2;
+          grid-row: 2;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.78vw;
+          line-height: 0.94vw;
+        }
+      }
     }
 
     .program_right {

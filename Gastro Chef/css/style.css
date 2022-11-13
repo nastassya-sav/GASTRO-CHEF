@@ -4006,6 +4006,25 @@ input[type="radio"]:checked::before {
           top: 6.25vw;
           font-size: 3.125vw;
           line-height: 3.75vw; }
+      .program_block .program_left .left_body {
+        grid-column: 1/4;
+        grid-row: 2/6;
+        position: absolute;
+        top: 2.6vw;
+        left: 1.04vw;
+        width: 87.5vw;
+        height: 38.125vw; }
+        .program_block .program_left .left_body .lb1 {
+          grid-column: 1/2;
+          grid-row: 2;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.78vw;
+          line-height: 0.94vw; }
     .program_block .program_right {
       display: none; }
 
@@ -4084,5 +4103,4 @@ input[type="radio"]:checked::before {
     left: -8vw;
     top: 17.46vw;
     font-size: calc(3.28*0.73vw); } }
-
 /*# sourceMappingURL=style.css.map */
