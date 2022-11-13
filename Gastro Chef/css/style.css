@@ -3212,9 +3212,21 @@ input[type="radio"]:checked::before {
     display: inline;
     color: #64D370; }
 
+.phone_circle {
+  display: none; }
+
+.header-right svg {
+  display: none; }
+
 @media screen and (max-width: 800px) {
   .container {
     height: 325.97vw; }
+
+  .header-right svg {
+    display: none; }
+
+  .phone_circle {
+    display: none; }
 
   .bottom_block {
     -webkit-box-orient: vertical;
@@ -3566,5 +3578,220 @@ input[type="radio"]:checked::before {
 
   .footer {
     top: 307.74vw; } }
+@media screen and (max-width: 450px) {
+  .language {
+    display: none; }
+
+  .header-right {
+    width: 20vw;
+    height: 20vw;
+    left: 72.14vw;
+    top: 2.71vw;
+    background: #F5FAFF;
+    -webkit-filter: box-shadow(0px 0px 2.08vw rgba(86, 86, 86, 0.3));
+            filter: box-shadow(0px 0px 2.08vw rgba(86, 86, 86, 0.3));
+    border-radius: 50%; }
+    .header-right .phone {
+      display: none; }
+    .header-right svg {
+      display: block;
+      position: absolute;
+      left: 7vw;
+      top: 7vw; }
+
+  .main_text_block {
+    position: absolute;
+    left: -2vw;
+    top: 43vw; }
+    .main_text_block .main_text {
+      width: 56.25vw;
+      height: 16.88vw;
+      left: 19.11vw;
+      top: 20.83vw;
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 5vw;
+      line-height: 5.6vw; }
+    .main_text_block .main_text_caption {
+      width: 43.44vw;
+      height: 8.125vw;
+      left: 19.11vw;
+      top: 40vw;
+      font-size: 3.125vw; }
+    .main_text_block .button_order {
+      width: 42.5vw;
+      height: 10.31vw;
+      left: 19.11vw;
+      top: 50vw;
+      -webkit-box-shadow: 0px 0px 12.5vw rgba(86, 86, 86, 0.3);
+              box-shadow: 0px 0px 12.5vw rgba(86, 86, 86, 0.3);
+      border-radius: 59.38vw; }
+      .main_text_block .button_order .button_order_text {
+        width: 24.06vw;
+        height: 5.94vw;
+        left: 9.38vw;
+        top: 2.19vw;
+        font-size: 4.38vw; }
+    .main_text_block .main_text_caption_right {
+      width: 40.31vw;
+      height: 5vw;
+      left: 19.11vw;
+      top: 62vw;
+      font-size: 3.125vw; }
+      .main_text_block .main_text_caption_right .green_text1 {
+        width: 20.63vw;
+        height: 5vw;
+        left: 19.11vw;
+        top: 68.5vw;
+        font-size: 5vw; }
+
+  .contact {
+    width: 18.75vw;
+    height: 25vw;
+    top: 158.1vw;
+    left: -28vw; }
+    .contact .message {
+      width: 13.1vw;
+      height: 13.1vw;
+      left: 0.88vw;
+      top: 0.21vw;
+      -webkit-transform: rotate(19.06deg);
+              transform: rotate(19.06deg); }
+      .contact .message svg {
+        width: 6.04vw;
+        height: 6.04vw;
+        left: 3.82vw;
+        top: 3.62vw;
+        -webkit-transform: rotate(19.06deg);
+                transform: rotate(19.06deg); }
+    .contact .notification {
+      width: 4.09vw;
+      height: 4.09vw;
+      right: 2vw;
+      top: 1vw;
+      border: 0.62vw solid #000000; }
+      .contact .notification .not_text {
+        left: 1vw;
+        top: 0.32vw;
+        font-size: 1.88vw;
+        -webkit-transform: rotate(32.06deg);
+                transform: rotate(32.06deg); }
+    .contact .telegram {
+      width: 8.15vw;
+      height: 8.15vw;
+      left: -9vw;
+      top: 6vw; }
+      .contact .telegram svg {
+        width: 8.15vw;
+        height: 8.15vw;
+        -webkit-transform: rotate(32.06deg);
+                transform: rotate(32.06deg); }
+    .contact .twitter {
+      width: 8.15vw;
+      height: 8.15vw;
+      left: -1vw;
+      top: 15vw; }
+      .contact .twitter svg {
+        top: 1.5vw;
+        left: 1.5vw;
+        width: 5.15vw;
+        height: 5.15vw;
+        -webkit-transform: rotate(32.06deg);
+                transform: rotate(32.06deg); }
+
+  .left_menu {
+    display: none; }
+
+  .light_circle_par {
+    display: none; }
+
+  .light_circle_right_par {
+    display: none; }
+
+  .light_circle_left {
+    display: none; }
+
+  .light_circle_right2_par {
+    display: none; }
+
+  .light_circle_left2 {
+    display: none; }
+
+  .photo_text {
+    display: none; }
+
+  .photo_block {
+    display: none; }
+
+  .medium_block {
+    display: none; }
+
+  .program_block {
+    display: none; }
+
+  .circle {
+    width: 33.44vw;
+    height: 33.44vw;
+    top: -3.45vw;
+    left: -9vw; }
+
+  .phone_circle {
+    display: block;
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    top: 2.71vw;
+    left: 47vw;
+    background: #F5FAFF;
+    -webkit-box-shadow: 0px 0px 12.5vw rgba(86, 86, 86, 0.3);
+            box-shadow: 0px 0px 12.5vw rgba(86, 86, 86, 0.3);
+    border-radius: 50%; }
+    .phone_circle svg {
+      position: absolute;
+      left: 6vw;
+      top: 6vw; }
+
+  .circle1 {
+    width: 100vw;
+    height: 89.06vw;
+    left: 0vw;
+    top: 0vw;
+    z-index: -1;
+    padding: 0vw; }
+    .circle1 .circle2 {
+      width: 162.14vw;
+      height: 162.14vw;
+      left: -5vw;
+      top: -100.92vw;
+      background: #64D370;
+      -webkit-box-shadow: 0px 0px 12.5vw rgba(86, 86, 86, 0.4);
+              box-shadow: 0px 0px 12.5vw rgba(86, 86, 86, 0.4);
+      -webkit-transform: rotate(-53.55deg);
+              transform: rotate(-53.55deg); }
+    .circle1 .circle_white {
+      left: 10vw;
+      top: 95vw; }
+
+  .header-center-list {
+    height: 10.62vw;
+    width: 72.81vw;
+    top: 7.62vw;
+    border-radius: 59.38vw; }
+    .header-center-list ul {
+      display: none; }
+
+  .logo {
+    width: 47.88vw;
+    height: 17.56vw;
+    top: 1.78vw;
+    left: -13vw; }
+
+  .caption {
+    width: 32.5vw;
+    height: 3.125vw;
+    left: -8vw;
+    top: 17.46vw;
+    font-size: calc(3.28*0.73vw); } }
 
 /*# sourceMappingURL=style.css.map */
