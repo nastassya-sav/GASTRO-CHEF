@@ -3978,13 +3978,14 @@ input[type="radio"]:checked::before {
   }
 }
 
-.dropdown_menu li:hover{
+.dropdown_menu li:hover {
   color: $green;
 }
 
-.order_button1{
+.order_button1 {
   display: none;
 }
+
 //media queries
 
 @media screen and (max-width: 800px) {
@@ -4442,6 +4443,10 @@ input[type="radio"]:checked::before {
 @media screen and (max-width: 450px) {
   .container {
     height: 1190vw;
+  }
+
+  .photo_range {
+    display: none;
   }
 
   .language {

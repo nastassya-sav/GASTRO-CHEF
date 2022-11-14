@@ -3652,6 +3652,9 @@ input[type="radio"]:checked::before {
   .container {
     height: 1190vw; }
 
+  .photo_range {
+    display: none; }
+
   .language {
     display: none; }
 
