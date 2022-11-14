@@ -3684,12 +3684,12 @@ input[type="radio"]:checked::before {
 }
 
 
-.twitter_footer:hover{
+.twitter_footer:hover {
   cursor: pointer;
 }
 
 
-.telegram_footer:hover{
+.telegram_footer:hover {
   cursor: pointer;
 }
 
@@ -3926,6 +3926,65 @@ input[type="radio"]:checked::before {
   display: none;
 }
 
+.dropdown_menu {
+  display: none;
+}
+
+.header-right svg:hover {
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown_menu {
+  position: absolute;
+  width: 102vw;
+  height: 80.63vw;
+  left: -72.14vw;
+  top: -2.71vw;
+
+  background: #F5FAFF;
+  border-radius: 15.63vw 15.63vw 0px 0px;
+  transform: rotate(180deg);
+  z-index: 2;
+
+  .nav {
+    width: 56.25vw;
+    height: 70vw;
+    left: 22vw;
+    top: 0vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 3;
+    transform: rotate(180deg);
+
+    li {
+      flex-grow: 1;
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 5vw;
+      line-height: 133.8%;
+      /* or 21px */
+
+      text-align: center;
+
+      color: #020202;
+    }
+  }
+}
+
+.dropdown_menu li:hover{
+  color: $green;
+}
+
+.order_button1{
+  display: none;
+}
 //media queries
 
 @media screen and (max-width: 800px) {

@@ -11,7 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
     <title> Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -55,12 +57,20 @@
                 <div class="phone">
                     <a href="tel:+38(068)949-49-19">+38 (068) 949 - 49 -19</a>
                 </div>
-                <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="dropbtn" onclick="myFunction()" width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="25" height="3.94737" rx="1.97368" fill="#020202" />
                     <rect x="5" y="8" width="20" height="4" rx="2" fill="#020202" />
                     <rect y="15.7895" width="25" height="3.94737" rx="1.97368" fill="#020202" />
                 </svg>
-
+                <div id="myDropdown" class="dropdown_menu">
+                    <ul class="nav">
+                        <li><a href="#">Програмы питания</a></li>
+                        <li><a href="#">Бизнес-ланчи</a></li>
+                        <li><a href="#">Gastro Shop</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Блог</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="language">
                 <div class="lang_circle_ru">
