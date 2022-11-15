@@ -139,9 +139,9 @@ a {
 .not_block {
   display: none;
   position: absolute;
-  width: 12.75vw;
-  height: 4.75vw;
-  top: -4vw;
+  width: 14vw;
+  height: 5.5vw;
+  top: -5vw;
   right: -14vw;
   border-radius: 10%;
   border: solid #64D370;
@@ -155,7 +155,8 @@ a {
   font-weight: 500;
   font-size: 1.24vw;
   line-height: 1.25vw;
-  padding: 1vw;
+  padding-left: 1.5vw;
+  padding-top: 1vw;
   z-index: 2; }
 
 .logo {
