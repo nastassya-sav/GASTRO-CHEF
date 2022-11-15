@@ -1,5 +1,332 @@
-.about_first_text{
+@import "variables";
+
+.container{
+    height: 280vw;
+}
+
+.about_first_text {
+    position: absolute;
     width: 27.4vw;
     height: 24.17vw;
-    border:solid red;
+    left: 19.11vw;
+    top: 19.79vw;
+    //border: solid red;
+
+    .about_first_text1 {
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.67vw;
+        line-height: 1.67vw;
+        letter-spacing: 0.025em;
+
+        color: #020202;
+
+        .about_green_text {
+            color: $green;
+        }
+    }
+
+    .about_first_text2 {
+        position: absolute;
+        top: 9.58vw;
+        left: 0vw;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.04vw;
+        line-height: 1.15vw;
+
+        color: #020202;
+    }
+
+    .about_first_text3 {
+        position: absolute;
+        top: 14.06vw;
+        left: 0vw;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.04vw;
+        line-height: 1.15vw;
+
+        color: #020202;
+    }
+
+    .about_first_text4 {
+        position: absolute;
+        bottom: 0vw;
+        left: 0vw;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.04vw;
+        line-height: 1.15vw;
+
+        color: #020202;
+
+    }
+}
+
+.about_second_block {
+    position: absolute;
+    width: 79.9vw;
+    height: 44.74vw;
+    left: 0vw;
+    top: 54.32vw;
+    display: flex;
+    flex-direction: row;
+
+    .about_second_image {
+        flex: 55.9%;
+
+        img {
+            width: 44.74vw;
+            height: 44.74vw;
+            object-fit: contain;
+        }
+    }
+
+    .about_second_text {
+        flex: 44.1%;
+
+        .about_second_text1 {
+            position: absolute;
+            top: 10.58vw;
+            left: 45.31vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.67vw;
+            line-height: 1.67vw;
+            letter-spacing: 0.025em;
+
+
+            color: #020202;
+        }
+
+        .about_second_text2 {
+            position: absolute;
+            top: 15.58vw;
+            left: 45.31vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_second_text3 {
+            position: absolute;
+            top: 20.58vw;
+            left: 45.31vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_second_text4 {
+            position: absolute;
+            top: 25.58vw;
+            left: 45.31vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_second_text5 {
+            position: absolute;
+            top: 30.58vw;
+            left: 45.31vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_second_text6 {
+            position: absolute;
+            top: 40.58vw;
+            left: 45.31vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.67vw;
+            line-height: 1.67vw;
+            letter-spacing: 0.025em;
+
+
+            color: #020202;
+        }
+    }
+}
+
+.about_third_image {
+    position: absolute;
+    width: 100vw;
+    height: 36.15vw;
+    left: 0vw;
+    top: 103.96vw;
+
+    img {
+        width: 102vw;
+        height: 36.15vw;
+        object-fit: cover;
+    }
+}
+
+.about_fourth_block {
+    position: absolute;
+    width: 84.9vw;
+    height: 43.44vw;
+    top: 145.89vw;
+    left: 19.27vw;
+    display: flex;
+    flex-direction: row;
+
+    .about_fourth_text {
+        flex: 40%;
+
+        .about_fourth_text1 {
+            position: absolute;
+            top: 0vw;
+            left: 0vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.67vw;
+            line-height: 1.67vw;
+            letter-spacing: 0.025em;
+
+
+            color: #020202;
+        }
+
+        .about_fourth_text2 {
+            position: absolute;
+            width: 30.42vw;;
+            top: 4.58vw;
+            left: 0vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_fourth_text3 {
+            position: absolute;
+            width: 30.42vw;;
+            top: 14.58vw;
+            left: 0vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_fourth_text4 {
+            position: absolute;
+            width: 30.42vw;;
+            top: 21.58vw;
+            left: 0vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+            color: #020202;
+        }
+
+        .about_fourth_text5 {
+            position: absolute;
+            top: 28.58vw;
+            left: 0vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.67vw;
+            line-height: 1.67vw;
+            letter-spacing: 0.025em;
+
+
+            color: #020202;
+        }
+
+        .about_fourth_text6 {
+            position: absolute;
+            top: 32vw;
+            left: 4vw;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.67vw;
+            font-size: 1.04vw;
+            line-height: 1.15vw;
+
+
+            color: #020202;
+        }
+
+        .about_svg{
+            position: absolute;
+            top: 31vw;
+            left: 0vw;
+        }
+    }
+
+    .about_fourth_image {
+        flex: 60%;
+
+        img {
+            position: relative;
+            right: -3vw;
+            //height: 43.44vw;
+            width: 45.44vw;
+            object-fit: contain;
+        }
+    }
+}
+
+.photo_block {
+    top: 170vw;
+}
+
+.bottom_block{
+    top: 210vw
+}
+
+.footer{
+    top: 250vw
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        height: 385vw;
+    }
+    .footer {
+        top: 354.74vw;
+      }
 }
