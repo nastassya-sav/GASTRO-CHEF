@@ -465,6 +465,19 @@ a {
           transform: rotate(39.58deg);
   border-radius: 50%; }
 
+.image_kirill {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  margin: 0.78vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: url("../img/kirill.png");
+  background-size: contain;
+  -webkit-transform: rotate(39.58deg);
+          transform: rotate(39.58deg);
+  border-radius: 50%; }
+
 .contact {
   width: 5.03vw;
   height: 6.62vw;
@@ -4889,4 +4902,5 @@ input[type="radio"]:checked::before {
     left: -8vw;
     top: 17.46vw;
     font-size: calc(3.28*0.73vw); } }
+
 /*# sourceMappingURL=style.css.map */

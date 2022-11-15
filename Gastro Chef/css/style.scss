@@ -523,6 +523,18 @@ a {
   border-radius: 50%;
 }
 
+.image_kirill {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  margin: 0.78vw;
+  object-fit: contain;
+  background: url("../img/kirill.png");
+  background-size: contain;
+  transform: rotate(39.58deg);
+  border-radius: 50%;
+}
+
 .contact {
   width: 5.03vw;
   height: 6.62vw;
