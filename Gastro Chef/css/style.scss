@@ -64,7 +64,126 @@ a {
   box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
   border-radius: 50%;
   z-index: 0;
+
+
 }
+
+@keyframes MyAnimation2 {
+  from {
+    background-color: rgb(90, 47, 153);
+  }
+
+  50% {
+    background-color: magenta;
+  }
+
+  to {
+    background-color: rgb(90, 47, 153);
+  }
+}
+
+/*.circle_anim {
+  position: absolute;
+  left: 35.4vw;
+  top: 15.6vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  animation: MyAnimation2 5s infinite;
+}*/
+
+@keyframes shake {
+  50% {
+    transform: translate(0, 1vw);
+  }
+
+  65% {
+    transform: translate(0, 0vw);
+  }
+
+  78% {
+    transform: translate(0, 1vw);
+  }
+
+  100% {
+    transform: translate(0, 0vw);
+  }
+}
+
+/*.twitter_footer1 {
+  position: absolute;
+  left: 33vw;
+  top: 13.2vw;
+  width: 8vw;
+  height: 8vw;
+  padding:1vw;
+}*/
+
+//anim svg start
+
+path#svg_17 {
+
+  //animation: shake 1s infinite;
+}
+
+.anim1:hover {
+  cursor: pointer;
+  fill: red;
+  stroke: white;
+  .not_block{
+    display: block;
+  }
+  svg{
+    animation-play-state: paused;
+  }
+}
+
+.anim1 {
+  position: absolute;
+  width: 3.75vw;
+  height: 3.75vw;
+  top: 1vw;
+  right: -3vw;
+  border-radius: 50%;
+  transition: 0.2s;
+
+  svg {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    bottom: 0.2vw;
+    left: 0.3vw;
+    fill: $green;
+    stroke: $green;
+    stroke-width: 0.5px;
+    animation: shake 1.2s infinite;
+  }
+}
+
+.not_block {
+  display: none;
+  position: absolute;
+  width: 12.75vw;
+  height: 4.75vw;
+  top: -4vw;
+  right: -14vw;
+  border-radius: 10%;
+  border: solid $green;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+  transition: 0.2s;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.24vw;
+  line-height: 1.25vw;
+  padding: 1vw;
+  z-index: 2;
+}
+
+
+
+//anim svg end
 
 .logo {
   position: absolute;
