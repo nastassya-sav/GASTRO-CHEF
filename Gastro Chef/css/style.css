@@ -47,30 +47,6 @@ a {
   border-radius: 50%;
   z-index: 0; }
 
-@-webkit-keyframes MyAnimation2 {
-  from {
-    background-color: #5a2f99; }
-  50% {
-    background-color: magenta; }
-  to {
-    background-color: #5a2f99; } }
-
-@keyframes MyAnimation2 {
-  from {
-    background-color: #5a2f99; }
-  50% {
-    background-color: magenta; }
-  to {
-    background-color: #5a2f99; } }
-/*.circle_anim {
-  position: absolute;
-  left: 35.4vw;
-  top: 15.6vw;
-  width: 2.5vw;
-  height: 2.5vw;
-  border-radius: 50%;
-  animation: MyAnimation2 5s infinite;
-}*/
 @-webkit-keyframes shake {
   50% {
     -webkit-transform: translate(0, 1vw);
@@ -84,6 +60,7 @@ a {
   100% {
     -webkit-transform: translate(0, 0vw);
             transform: translate(0, 0vw); } }
+
 @keyframes shake {
   50% {
     -webkit-transform: translate(0, 1vw);
@@ -97,14 +74,6 @@ a {
   100% {
     -webkit-transform: translate(0, 0vw);
             transform: translate(0, 0vw); } }
-/*.twitter_footer1 {
-  position: absolute;
-  left: 33vw;
-  top: 13.2vw;
-  width: 8vw;
-  height: 8vw;
-  padding:1vw;
-}*/
 .anim1:hover {
   cursor: pointer;
   fill: red;
@@ -4920,5 +4889,4 @@ input[type="radio"]:checked::before {
     left: -8vw;
     top: 17.46vw;
     font-size: calc(3.28*0.73vw); } }
-
 /*# sourceMappingURL=style.css.map */

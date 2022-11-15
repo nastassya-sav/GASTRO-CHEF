@@ -68,29 +68,7 @@ a {
 
 }
 
-@keyframes MyAnimation2 {
-  from {
-    background-color: rgb(90, 47, 153);
-  }
-
-  50% {
-    background-color: magenta;
-  }
-
-  to {
-    background-color: rgb(90, 47, 153);
-  }
-}
-
-/*.circle_anim {
-  position: absolute;
-  left: 35.4vw;
-  top: 15.6vw;
-  width: 2.5vw;
-  height: 2.5vw;
-  border-radius: 50%;
-  animation: MyAnimation2 5s infinite;
-}*/
+//anim svg start
 
 @keyframes shake {
   50% {
@@ -108,22 +86,6 @@ a {
   100% {
     transform: translate(0, 0vw);
   }
-}
-
-/*.twitter_footer1 {
-  position: absolute;
-  left: 33vw;
-  top: 13.2vw;
-  width: 8vw;
-  height: 8vw;
-  padding:1vw;
-}*/
-
-//anim svg start
-
-path#svg_17 {
-
-  //animation: shake 1s infinite;
 }
 
 .anim1:hover {
@@ -181,8 +143,6 @@ path#svg_17 {
   padding-top: 1vw;
   z-index: 2;
 }
-
-
 
 //anim svg end
 
