@@ -244,5 +244,33 @@
 
   .footer {
     top: 354.74vw; } }
+@media screen and (max-width: 450px) {
+  .container {
+    height: 500vw; }
+
+  .left_menu {
+    display: block; }
+
+  .left_circle1 {
+    display: none; }
+
+  .left_circle2 {
+    display: none; }
+
+  .left_circle3 {
+    display: none; }
+
+  .left_circle4 {
+    display: none; }
+
+  .left_circle5 {
+    display: none; }
+
+  .left_circle6 {
+    display: none; }
+
+  .footer {
+    display: block;
+    top: 300vw; } }
 
 /*# sourceMappingURL=style_about.css.map */
