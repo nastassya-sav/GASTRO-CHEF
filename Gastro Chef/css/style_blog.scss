@@ -921,57 +921,170 @@
     top: 17vw;
     width: 11.98vw;
     height: 1.56vw;
-    border: solid red;
+}
 
-    .art_left {
+.art_left {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 0px;
+    top: 0px;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .art_left_text {
+        font-family: 'Montserrat';
+        font-style: normal;
         position: absolute;
-        width: 1.56vw;
-        height: 1.56vw;
-        left: 0px;
-        top: 0px;
-
-        background: #DEE6EE;
-        border-radius: 50%;
-
-        .art_left_text {
-            font-family: 'Montserrat';
-            font-style: normal;
-            position: absolute;
-            left: 0.2vw;
-            top: -0.1vw;
-            font-size: 1.5vw;
-            color: $black;
-            font-weight: 500;
-        }
+        left: 0.2vw;
+        top: -0.1vw;
+        font-size: 1.5vw;
+        color: $black;
+        font-weight: 500;
     }
+}
 
-    .art_one {
+.art_one {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 2.1vw;
+    top: 0vw;
+
+    background: $green;
+    border-radius: 50%;
+
+    .art_one_text {
+        font-family: 'Montserrat';
+        font-style: normal;
         position: absolute;
-        width: 1.56vw;
-        height: 1.56vw;
-        left: 2.1vw;
-        top: 2.1vw;
+        left: 0.6vw;
+        top: 0.35vw;
+        font-size: 0.89vw;
+        line-height: 0.89vw;
+        text-align: center;
+        color: $whitebackground;
+        font-weight: 500;
+    }
+}
 
-        background: #DEE6EE;
-        border-radius: 50%;
+.art_two {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 4.2vw;
+    top: 0vw;
 
-        .art_one_text {
-            font-family: 'Montserrat';
-            font-style: normal;
-            position: absolute;
-            left: 0.2vw;
-            top: -0.1vw;
-            font-size: 1.5vw;
-            color: $black;
-            font-weight: 500;
-        }
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .art_two_text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        position: absolute;
+        left: 0.6vw;
+        top: 0.35vw;
+        font-size: 0.89vw;
+        line-height: 0.89vw;
+        text-align: center;
+        color: $black;
+        font-weight: 500;
+    }
+}
+
+.art_three {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 6.3vw;
+    top: 0vw;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .art_three_text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        position: absolute;
+        left: 0.6vw;
+        top: 0.35vw;
+        font-size: 0.89vw;
+        line-height: 0.89vw;
+        text-align: center;
+        color: $black;
+        font-weight: 500;
+    }
+}
+
+.art_right {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 8.4vw;
+    top: 0px;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .art_right_text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        position: absolute;
+        left: 0.2vw;
+        top: -0.1vw;
+        font-size: 1.5vw;
+        color: $black;
+        font-weight: 500;
+    }
+}
+
+.articles_slide2 {
+    position: absolute;
+    left: 21vw;
+    top: 72vw;
+    width: 11.98vw;
+    height: 1.56vw;
+}
+
+.articles_slide div:hover{
+    cursor: pointer;
+    background: $green;
+}
+
+.articles_slide2 div:hover{
+    cursor: pointer;
+    background: $green;
+}
+
+.art_left:hover{
+    .art_left_text{
+        color: $whitebackground;
+    }
+}
+.art_one:hover{
+    .art_one_text{
+        color: $whitebackground;
+    }
+}
+.art_two:hover{
+    .art_two_text{
+        color: $whitebackground;
+    }
+}
+.art_three:hover{
+    .art_three_text{
+        color: $whitebackground;
+    }
+}
+.art_right:hover{
+    .art_right_text{
+        color: $whitebackground;
     }
 }
 
 .footer {
-    position: fixed;
-    bottom: 0px;
-    //top: 70vw;
+    top: 70vw;
     z-index: 1;
 }
 
