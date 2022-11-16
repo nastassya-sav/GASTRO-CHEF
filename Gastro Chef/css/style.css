@@ -3025,7 +3025,7 @@ input[type="radio"]:checked::before {
     -webkit-transition: 0.2s;
     transition: 0.2s; }
 
-.footer_left > div:hover {
+.footer_left > a div:hover {
   cursor: pointer;
   color: #64D370; }
 
@@ -4902,4 +4902,5 @@ input[type="radio"]:checked::before {
     left: -8vw;
     top: 17.46vw;
     font-size: calc(3.28*0.73vw); } }
+
 /*# sourceMappingURL=style.css.map */

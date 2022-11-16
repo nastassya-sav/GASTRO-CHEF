@@ -3622,7 +3622,7 @@ input[type="radio"]:checked::before {
   }
 }
 
-.footer_left>div:hover {
+.footer_left> a div:hover {
   cursor: pointer;
   color: $green;
 }
