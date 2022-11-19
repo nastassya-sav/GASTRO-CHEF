@@ -1,0 +1,565 @@
+@import "variables";
+
+.dark_back .dark_text {
+    left: 20vw;
+}
+
+.sweets_first_line .sweets_list_circle1 {
+    top: 21.8vw;
+}
+
+.sweets_first_line .sweets_list_circle2 {
+    top: 21.8vw;
+}
+
+.sweets_first_line .sweets_list_circle11 {
+    top: 21.8vw;
+}
+
+.sweets_first_line .sweets_list_circle21 {
+    top: 21.8vw;
+    left: 35.8vw;
+}
+
+.sweets_block .sweets_first_line .sweets_list_one1 {
+    position: absolute;
+    left: 34.2vw;
+    top: 22vw;
+    width: 0.42vw;
+    height: 1.25vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_block .sweets_second_line .sweets_list_one2 {
+    position: absolute;
+    left: 3.5vw;
+    top: 49vw;
+    width: 0.42vw;
+    height: 1.25vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_block .sweets_second_line .sweets_list_one3 {
+    position: absolute;
+    left: 34.2vw;
+    top: 49vw;
+    width: 0.42vw;
+    height: 1.25vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_second_line .sweets_list_circle12 {
+    top: 48.8vw;
+}
+
+.sweets_second_line .sweets_list_circle22 {
+    top: 48.8vw;
+}
+
+.sweets_second_line .sweets_list_circle13 {
+    top: 48.8vw;
+}
+
+.sweets_second_line .sweets_list_circle23 {
+    top: 48.8vw;
+    left: 35.8vw;
+}
+
+.sweets_list_caption1 {
+    position: absolute;
+    width: 15.42vw;
+    height: 1.25vw;
+    left: 37vw;
+    top: 21.85vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_list_caption2 {
+    position: absolute;
+    width: 15.42vw;
+    height: 1.25vw;
+    left: 4.8vw;
+    top: 49vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_list_caption3 {
+    position: absolute;
+    width: 15.42vw;
+    height: 1.25vw;
+    left: 37vw;
+    top: 49vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_gr {
+    position: relative;
+    width: 2.55vw;
+    height: 1.25vw;
+    left: -4vw;
+    top: 0vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_ccal {
+    position: relative;
+    width: 2.55vw;
+    height: 1.25vw;
+    left: -1.5vw;
+    top: 0vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_gr1 {
+    position: absolute;
+    width: 3.55vw;
+    height: 1.25vw;
+    left: 49vw;
+    top: 15vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_ccal1 {
+    position: absolute;
+    width: 5.55vw;
+    height: 1.25vw;
+    left: 55vw;
+    top: 15vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_gr2 {
+    position: absolute;
+    width: 5.55vw;
+    height: 1.25vw;
+    left: 19vw;
+    top: 42vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_ccal2 {
+    position: absolute;
+    width: 5.55vw;
+    height: 1.25vw;
+    left: 24.5vw;
+    top: 42vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_gr3 {
+    position: absolute;
+    width: 3.55vw;
+    height: 1.25vw;
+    left: 49vw;
+    top: 42vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_ccal3 {
+    position: absolute;
+    width: 5.55vw;
+    height: 1.25vw;
+    left: 55vw;
+    top: 42vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_third_line {
+    position: absolute;
+    display: flex;
+    width: 61.46vw;
+    height: 26.98vw;
+    left: 0vw;
+    top: 52vw;
+    flex-direction: row;
+
+    .lunch_second_first_l {
+        flex: 50%;
+    }
+
+    .lunch_second_second_l {
+        flex: 50%;
+    }
+}
+
+.sweets_img_l {
+    position: relative;
+    width: 30.2vw;
+    height: 15vw;
+    left: 0vw;
+    top: 0vw;
+}
+
+.sweets_list_main_text_l {
+    position: relative;
+    width: 27.87vw;
+    height: 1.04vw;
+    left: 1vw;
+    top: 0vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.94vw;
+    line-height: 1.04vw;
+    color: #020202;
+}
+
+.sweets_list_text_l {
+    position: absolute;
+    width: 30vw;
+    height: 2.29vw;
+    left: 1vw;
+    top: 17.5vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.73vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    color: #020202;
+}
+
+.sweets_list_text_l1 {
+    position: absolute;
+    width: 30vw;
+    height: 2.29vw;
+    left: 31.6vw;
+    top: 17.5vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.73vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+    color: #020202;
+}
+
+.sweets_list_circle1_l {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 1vw;
+    top: 22vw;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .sweets_list_circle1_l_text {
+        position: absolute;
+        width: 0.42vw;
+        height: 1.25vw;
+        left: 0.5vw;
+        top: 0.1vw;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.04vw;
+        line-height: 1.25vw;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #020202;
+    }
+}
+
+.sweets_list_circle21_l {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 31.6vw;
+    top: 22vw;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .sweets_list_circle21_l_text {
+        position: absolute;
+        width: 0.42vw;
+        height: 1.25vw;
+        left: 0.5vw;
+        top: 0.1vw;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.04vw;
+        line-height: 1.25vw;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #020202;
+    }
+}
+
+.sweets_list_caption_l {
+    position: relative;
+    width: 0.42vw;
+    height: 1.25vw;
+    left: -3vw;
+    top: 7vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_list_circle2_l {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 5vw;
+    top: 22vw;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .sweets_list_circle2_l_text {
+        position: absolute;
+        width: 0.42vw;
+        height: 1.25vw;
+        left: 0.5vw;
+        top: 0.1vw;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.04vw;
+        line-height: 1.25vw;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #020202;
+    }
+}
+
+.sweets_list_circle22_l {
+    position: absolute;
+    width: 1.56vw;
+    height: 1.56vw;
+    left: 35.8vw;
+    top: 22vw;
+
+    background: #DEE6EE;
+    border-radius: 50%;
+
+    .sweets_list_circle22_l_text {
+        position: absolute;
+        width: 0.42vw;
+        height: 1.25vw;
+        left: 0.5vw;
+        top: 0.1vw;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.04vw;
+        line-height: 1.25vw;
+        text-align: center;
+        letter-spacing: 0.025em;
+        color: #020202;
+    }
+}
+
+.sweets_list_one_l{
+    position: relative;
+    width: 0.42vw;
+    height: 1.25vw;
+    left: -8vw;
+    top: 6.9vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    text-align: center;
+    letter-spacing: 0.025em;
+    color: $green;
+}
+
+.lunch_gr_l{
+    position: relative;
+    width: 3.55vw;
+    height: 1.25vw;
+    left: -4vw;
+    top: 0vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.lunch_ccal_l{
+    position: relative;
+    width: 3.55vw;
+    height: 1.25vw;
+    left: -1.2vw;
+    top: 0vw;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.96vw;
+    line-height: 133.8%;
+    letter-spacing: 0.025em;
+
+    color: $green;
+}
+
+.sweets_list_circle1_l:hover,.sweets_list_circle21_l:hover,
+.sweets_list_circle2_l:hover,.sweets_list_circle22_l:hover{
+    cursor: pointer;
+    color: $whitebackground;
+    background: $green;
+}
+
+.photo_text {
+    top: 130vw;
+    left: 43vw;
+}
+
+.photo_block {
+    top: 130vw;
+}
+
+.bottom_block {
+    top: 170vw;
+}
+
+.footer {
+    top: 205vw;
+}
+
+.container {
+    height: 225vw;
+}
