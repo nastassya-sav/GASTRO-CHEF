@@ -293,5 +293,41 @@
   .footer {
     display: block;
     top: 300vw; } }
+@media screen and (max-width: 450px) {
+  .container {
+    height: 720vw; }
+
+  .image_kirill {
+    -webkit-transform: rotate(74.58deg);
+            transform: rotate(74.58deg); }
+
+  .contact {
+    top: 140vw;
+    left: 0vw; }
+
+  .about_first_text {
+    top: 60vw; }
+
+  .about_second_block {
+    top: 90vw; }
+
+  .about_third_image {
+    top: 140vw; }
+
+  .about_fourth_block {
+    top: 185vw; }
+
+  .photo_block_mobile {
+    top: 220vw; }
+
+  .bottom_block {
+    top: 330vw; }
+
+  .footer {
+    top: 660vw;
+    width: 105vw; }
+
+  .photo_text {
+    display: none; } }
 
 /*# sourceMappingURL=style_about.css.map */

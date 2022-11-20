@@ -449,8 +449,10 @@
   letter-spacing: 0.025em;
   color: #64D370; }
 
-.sweets_list_circle1_l:hover, .sweets_list_circle21_l:hover,
-.sweets_list_circle2_l:hover, .sweets_list_circle22_l:hover {
+.sweets_list_circle1_l:hover,
+.sweets_list_circle21_l:hover,
+.sweets_list_circle2_l:hover,
+.sweets_list_circle22_l:hover {
   cursor: pointer;
   color: #F5FAFF;
   background: #64D370; }
@@ -470,5 +472,33 @@
 
 .container {
   height: 225vw; }
+
+@media screen and (max-width: 800px) {
+  .container {
+    height: 350vw; }
+
+  .footer {
+    top: 320vw; } }
+@media screen and (max-width: 450px) {
+  .container {
+    height: 720vw; }
+
+  .dark_back {
+    top: 35vw; }
+
+  .order_button_sweets {
+    top: 65vw; }
+
+  .sweets_block {
+    top: 70vw; }
+
+  .photo_block_mobile {
+    top: 500vw; }
+
+  .footer {
+    top: 620vw; }
+
+  .photo_text {
+    display: none; } }
 
 /*# sourceMappingURL=style_lunch.css.map */

@@ -485,7 +485,7 @@
     }
 }
 
-.sweets_list_one_l{
+.sweets_list_one_l {
     position: relative;
     width: 0.42vw;
     height: 1.25vw;
@@ -502,7 +502,7 @@
     color: $green;
 }
 
-.lunch_gr_l{
+.lunch_gr_l {
     position: relative;
     width: 3.55vw;
     height: 1.25vw;
@@ -519,7 +519,7 @@
     color: $green;
 }
 
-.lunch_ccal_l{
+.lunch_ccal_l {
     position: relative;
     width: 3.55vw;
     height: 1.25vw;
@@ -536,8 +536,10 @@
     color: $green;
 }
 
-.sweets_list_circle1_l:hover,.sweets_list_circle21_l:hover,
-.sweets_list_circle2_l:hover,.sweets_list_circle22_l:hover{
+.sweets_list_circle1_l:hover,
+.sweets_list_circle21_l:hover,
+.sweets_list_circle2_l:hover,
+.sweets_list_circle22_l:hover {
     cursor: pointer;
     color: $whitebackground;
     background: $green;
@@ -562,4 +564,46 @@
 
 .container {
     height: 225vw;
+}
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        height: 350vw;
+    }
+
+    .footer {
+        top: 320vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .container {
+        height: 720vw;
+    }
+
+    .dark_back {
+        top: 35vw;
+    }
+
+    .order_button_sweets {
+        top: 65vw;
+    }
+
+    .sweets_block {
+        top: 70vw;
+    }
+
+    .photo_block_mobile {
+        top: 500vw;
+    }
+
+    .footer {
+        top: 620vw;
+    }
+
+    .photo_text{
+        display: none;
+    }
 }

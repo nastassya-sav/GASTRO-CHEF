@@ -647,3 +647,45 @@
 .container{
     height: 210vw;
 }
+
+@media screen and (max-width: 800px) {
+
+    .container {
+        height: 320vw;
+    }
+
+    .footer {
+        top: 295vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .container {
+        height: 720vw;
+    }
+
+    .dark_back {
+        top: 35vw;
+    }
+
+    .order_button_sweets {
+        top: 65vw;
+    }
+
+    .sweets_block {
+        top: 70vw;
+    }
+
+    .photo_block_mobile {
+        top: 500vw;
+    }
+
+    .footer {
+        top: 620vw;
+    }
+
+    .photo_text{
+        display: none;
+    }
+}

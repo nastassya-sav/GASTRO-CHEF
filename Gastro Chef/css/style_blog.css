@@ -969,5 +969,18 @@
   .footer {
     display: block;
     top: 300vw; } }
+@media screen and (max-width: 450px) {
+  .container {
+    height: 150vw; }
+
+  .articles_block {
+    top: 40vw; }
+
+  .anim1 {
+    display: none; }
+
+  .footer {
+    top: 100vw;
+    width: 105vw; } }
 
 /*# sourceMappingURL=style_blog.css.map */
