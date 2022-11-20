@@ -328,5 +328,45 @@
   .footer {
     display: block;
     top: 140vw; } }
+#flip {
+  position: absolute;
+  width: 20vw;
+  height: 3vw;
+  left: 42vw;
+  top: 45vw;
+  padding-top: 0.8vw;
+  text-align: center;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1vw;
+  -webkit-box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+          box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+  border-radius: 9.9vw;
+  color: #F5FAFF;
+  background-color: #64D370; }
+
+#panel {
+  position: absolute;
+  width: 20vw;
+  height: 5vw;
+  left: 42vw;
+  top: 48vw;
+  padding-top: 1.8vw;
+  text-align: center;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1vw;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+          box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+  border-radius: 1vw;
+  color: #F5FAFF;
+  background-color: #64D370;
+  display: none; }
+
+#flip:hover {
+  cursor: pointer; }
 
 /*# sourceMappingURL=style_shop.css.map */

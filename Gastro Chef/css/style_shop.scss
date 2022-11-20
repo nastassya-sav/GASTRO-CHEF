@@ -230,7 +230,8 @@
 .shop_granola:hover {
     cursor: pointer;
     transform: scale(0.7);
-    .shop_svg_text{
+
+    .shop_svg_text {
         transform: scale(0.7);
         left: 24vw;
         transform: rotate(45deg);
@@ -386,4 +387,46 @@
         display: block;
         top: 140vw;
     }
+}
+
+#flip {
+    position: absolute;
+    width: 20vw;
+    height: 3vw;
+    left: 42vw;
+    top: 45vw;
+    padding-top: 0.8vw;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+    border-radius: 9.9vw;
+    color: $whitebackground;
+    background-color: $green;
+}
+
+#panel {
+    position: absolute;
+    width: 20vw;
+    height: 5vw;
+    left: 42vw;
+    top: 48vw;
+    padding-top: 1.8vw;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    text-align: center;
+    box-shadow: 0px 0px 2.08vw rgba(86, 86, 86, 0.3);
+    border-radius: 1vw;
+    color: $whitebackground;
+    background-color: $green;
+    display: none;
+}
+
+#flip:hover{
+    cursor: pointer;
 }
