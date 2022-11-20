@@ -9,7 +9,6 @@ body {
   overflow-x: hidden; }
 
 .container {
-  max-width: 1.6vh;
   position: absolute;
   height: 222.97vw;
   width: 100vw; }
